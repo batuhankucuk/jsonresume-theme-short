@@ -40,8 +40,17 @@ blockquote {
 
 .heading header h1 {
 	font-size: 180%;
-	margin: 0.5em 0;
+	line-height: 1;
+	margin: 0.5em 0 0 0;
 	font-weight: 600;
+}
+
+.heading header h3 {
+	color: #6B6B6B;
+	font-size: 110%;
+	line-height: 1;
+	margin: 0 0 0.5em 0;
+	font-weight: 300;
 }
 
 .heading header h2 {

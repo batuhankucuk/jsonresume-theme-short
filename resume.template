@@ -24,7 +24,8 @@
 	{{#resume.basics}}
 	<section class="heading">
 		<header>
-			<h1>{{name}}</h1>
+			{{#if name}}<h1>{{name}}</h1>{{/if}}
+			{{#if label}}<h3>{{label}}</h3>{{/if}}
 			<div class="contact">
 				{{#if email}}
 				<span class="detail">
