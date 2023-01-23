@@ -100,6 +100,12 @@ section h2 {
 	font-weight: 600;
 }
 
+.item header h3[data-location]::after {
+	content: " (" attr(data-location) ")";
+	color: #6B6B6B;
+	font-weight: 300;
+}
+
 .item header a {
 	display: inline-block;
 }

@@ -103,7 +103,7 @@
 		<section class="item">
 			<header>
 				{{#if company}}
-					<h3 class="name">{{company}}</h3>
+					<h3 class="name" {{#if location}}data-location="{{location}}"{{/if}}>{{company}}</h3>
 				{{/if}}
 			</header>
 			{{#if position}}
