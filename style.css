@@ -165,5 +165,25 @@ section h2 {
 	width: 49.5%;
 	border-bottom: 0;
 }
+#references .reference .name {
+	font-weight: 700;
+}
+
+#references .reference .title,
+#references .reference .company {
+	font-weight: 300;
+	color: #6B6B6B;
+}
+
+#references .reference .title,
+#references .reference .contact{
+	border-left: 1px solid;
+	margin-left: .4rem;
+	padding-left: .4rem;
+}
+
+#references .reference .contact {
+	font-weight: 400;
+}
 
 
