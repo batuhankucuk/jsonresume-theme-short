@@ -1,7 +1,7 @@
 body {
 	background: #fff;
 	font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
-	line-height: 1.4;
+	line-height: 1.2;
 	margin: 0 0;
 	margin-bottom: 100px;
 }
@@ -9,7 +9,7 @@ em {
 	color: #999;
 }
 p {
-	line-height: 1.6;
+	line-height: 1.4;
 	font-size: 90%;
 }
 
