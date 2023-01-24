@@ -55,7 +55,11 @@
 			<div class="profile">
 				{{#if network}}
 				<strong class="network">
-					{{network}}
+                    {{#if username}}
+                    {{network}}
+					{{else}}
+					<a href="{{url}}" target="_blank">{{network}}</a>
+					{{/if}}
 				</strong>
 				{{/if}}
 				{{#if username}}

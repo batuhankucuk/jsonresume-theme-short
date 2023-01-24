@@ -73,6 +73,10 @@ blockquote {
 	display: inline-block;
 	margin: 0 1em 0 0;
 }
+.profile strong a {
+	font-weight: inherit;
+}
+
 /* section / line breaks */
 section h2 {
 	font-size: 140%;
