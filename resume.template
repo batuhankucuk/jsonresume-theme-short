@@ -61,7 +61,7 @@
 				{{#if username}}
 				<span class="username">
 					{{#if url}}
-					<a href="{{url}}">{{username}}</a>
+					<a href="{{url}}" target="_blank">{{username}}</a>
 					{{else}}
 					{{username}}
 					{{/if}}
