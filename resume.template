@@ -364,7 +364,7 @@
 		{{#each resume.references}}
 		<div class="item reference">
 			{{#if reference}}
-			<blockquote class="reference">
+			<blockquote>
 				{{reference}}
 			</blockquote>
 			{{/if}}
