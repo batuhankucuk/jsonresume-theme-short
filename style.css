@@ -173,11 +173,14 @@ section h2 {
 
 /* education */
 #education .item {
-	display: inline-block;
 	vertical-align: top;
-	width: 60%;
 	border-bottom: 0;
 }
+
+#education .item .qualification{
+	width: 60%;
+}
+
 #references .reference blockquote {
 	font-size: 90%;
 	line-height: 1.2;
