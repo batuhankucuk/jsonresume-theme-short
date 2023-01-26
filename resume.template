@@ -72,7 +72,7 @@
 
         <div class="summary">
 		{{#if summary}}
-            <p>{{paragraphSplit summary}}</p>
+            {{paragraphSplit summary}}
         {{/if}}
         </div>
 
@@ -135,7 +135,7 @@
 
 			{{#if summary}}
 			<div class="summary">
-				<p>{{paragraphSplit summary}}</p>
+				{{paragraphSplit summary}}
 			</div>
 			{{/if}}
 			{{#if highlights.length}}
