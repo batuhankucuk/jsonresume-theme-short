@@ -67,6 +67,10 @@ blockquote {
 	margin: 0 1em 0 0;
 }
 
+.heading .summary p {
+	font-size: 95%;
+}
+
 .profile {
 	display: inline-block;
 	margin: 0 1em 0 0;
@@ -173,6 +177,15 @@ section h2 {
 	width: 60%;
 	border-bottom: 0;
 }
+#references .reference blockquote {
+	font-size: 90%;
+	line-height: 1.2;
+}
+
+#references .reference .details {
+	font-size: 100%;
+}
+
 #references .reference .name {
 	font-weight: 700;
 }
