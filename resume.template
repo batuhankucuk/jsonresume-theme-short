@@ -159,25 +159,26 @@
 				{{#if organization}}
 					<h3 class="name">{{organization}}</h3>
 				{{/if}}
+				<div class="date">
+                    {{#if startDate}}
+                    <span class="startDate">
+                        {{date startDate}}
+                    </span>
+                    {{/if}}
+                    {{#if endDate}}
+                    <span class="endDate">
+                        - {{date endDate}}
+                    </span>
+                    {{else}}
+                    <span class="endDate">
+                        - Present
+                    </span>
+                    {{/if}}
+                </div>
 			</header>
 			{{#if position}}
 			<span class="position">
 				{{position}}
-			</span>
-			{{/if}}
-
-			{{#if startDate}}
-			<span class="startDate">
-				{{date startDate}}
-			</span>
-			{{/if}}
-			{{#if endDate}}
-			<span class="endDate">
-				- {{date endDate}}
-			</span>
-			{{else}}
-			<span class="endDate">
-				- Present
 			</span>
 			{{/if}}
 
@@ -207,24 +208,23 @@
 				{{#if institution}}
 					<h3 class="name">{{institution}}</h3>
 				{{/if}}
+				<div class="date">
+                    {{#if startDate}}
+                    <span class="startDate">
+                        {{date startDate}}
+                    </span>
+                    {{/if}}
+                    {{#if endDate}}
+                    <span class="endDate">
+                        - {{date endDate}}
+                    </span>
+                    {{else}}
+                    <span class="endDate">
+                        - Present
+                    </span>
+                    {{/if}}
+                </div>
 			</header>
-
-			<div class="dates">
-				{{#if startDate}}
-				<span class="startDate">
-					{{date startDate}}
-				</span>
-				{{/if}}
-				{{#if endDate}}
-				<span class="endDate">
-					- {{date endDate}}
-				</span>
-				{{else}}
-				<span class="endDate">
-					- Present
-				</span>
-				{{/if}}
-			</div>
 
 			<div class="qualification">
 				{{#if studyType}}
