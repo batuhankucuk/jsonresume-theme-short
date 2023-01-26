@@ -45,11 +45,6 @@
 			</div>
 		</header>
 
-
-		{{#if summary}}
-		<p>{{paragraphSplit summary}}</p>
-		{{/if}}
-
 		{{#if profiles.length}}
 			{{#each profiles}}
 			<div class="profile">
@@ -74,6 +69,12 @@
 			</div>
 			{{/each}}
 		{{/if}}
+
+        <div class="summary">
+		{{#if summary}}
+            <p>{{paragraphSplit summary}}</p>
+        {{/if}}
+        </div>
 
 	</section>
 	{{/resume.basics}}
