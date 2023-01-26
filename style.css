@@ -15,6 +15,7 @@ em {
 p {
 	line-height: 1.4;
 	font-size: 90%;
+	text-align: justify;
 }
 
 a {
@@ -180,6 +181,7 @@ section h2 {
 #references .reference blockquote {
 	font-size: 90%;
 	line-height: 1.2;
+	text-align: justify;
 }
 
 #references .reference .details {
