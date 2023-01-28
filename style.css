@@ -88,11 +88,24 @@ blockquote {
 
 /* section / line breaks */
 section h2 {
-	font-size: 140%;
+	position: relative;
+	display: inline-block;
+	font-size: 1.4rem;
+	line-height: 1;
 	margin: 0 0 0.6em;
 	text-transform: uppercase;
 	color: #BC1B39;
-	font-weight: 400;
+	font-weight: 500;
+}
+
+section h2::after {
+	content: '';
+	position: absolute;
+	width: 50%;
+	height: 1px;
+	left: 0;
+	bottom: -0.4rem;
+	background-color: #BC1B39;
 }
 
 /* Experience items */
