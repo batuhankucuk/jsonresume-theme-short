@@ -108,7 +108,18 @@
 		<section class="item work">
 			<header>
 				{{#if company}}
-					<h3 class="name" {{#if location}}data-location="{{location}}"{{/if}}>{{company}}</h3>
+				<div class="company">
+				    <h3 class="name" {{#if location}}data-location="{{location}}"{{/if}}>
+                        {{#if url}}
+                        <a href="{{url}}" class="icon" target="_blank">{{company}}{{! svg 'link' }}</a>
+                        {{else}}
+                        {{company}}
+                        {{/if}}
+					</h3>
+					{{#if url}}
+                        <a href="{{url}}" class="url" target="_blank">{{beautifyURL url}}</a>
+                    {{/if}}
+                </div>
 				{{/if}}
 				<div class="date">
                     {{#if startDate}}

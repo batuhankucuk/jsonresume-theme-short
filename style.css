@@ -119,11 +119,38 @@ section h2::after {
 	border-bottom: none;
 }
 
+.item.work header .company {
+	display: flex;
+	flex-direction: column;
+}
+
+.item.work header .company a.url{
+	margin-top: -0.4em;
+	margin-bottom: 0.2rem;
+	font-size: 0.8rem;
+	font-weight: 300;
+}
 
 .item header h3 {
 	margin: 0 1em 0.2em 0;
 	display: inline-block;
 	font-weight: 600;
+	font-size: 1.2rem;
+}
+
+.item.work header h3 a.icon{
+	color: inherit;
+	font: inherit;
+	text-decoration: inherit;
+	display: inline-flex;
+	align-items: center;
+}
+
+.item.work header h3 a.icon svg{
+	height: 1rem;
+	width: 1rem;
+	margin-top: .2rem;
+	margin-left: .2rem;
 }
 
 .item header h3[data-location]::after {
