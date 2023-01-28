@@ -374,15 +374,15 @@
 		<h2>References</h2>
 		{{#each resume.references}}
 		<div class="item reference">
-			{{#if reference}}
-			<blockquote>
-				{{reference}}
-			</blockquote>
-			{{/if}}
 			{{#if name}}
 			<div class="details">
 				— <span class='name'>{{name}}</span>{{#if contact}}<span class='contact'>{{contact}}</span>{{/if}}{{#if title}}<span class='title'>{{title}}</span>{{/if}}{{#if company}}<span class='company'> at {{company}}</span>{{/if}}
 			</div>
+			{{/if}}
+			{{#if reference}}
+			<blockquote>
+				{{reference}}
+			</blockquote>
 			{{/if}}
 		</div>
 		{{/each}}
