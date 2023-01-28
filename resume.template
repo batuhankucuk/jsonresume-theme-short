@@ -29,7 +29,7 @@
 			<div class="contact">
 				{{#if email}}
 				<span class="detail">
-					<a href="mailto:{{email}}">{{email}}</a>
+					<a href="mailto:{{email}}" target="_blank">{{email}}</a>
 				</span>
 				{{/if}}
 				{{#if phone}}
@@ -39,7 +39,7 @@
 				{{/if}}
 				{{#if website}}
 				<span class="detail">
-					<a href="{{website}}">{{website}}</a>
+					<a href="{{website}}" target="_blank">{{website}}</a>
 				</span>
 				{{/if}}
 			</div>
@@ -303,7 +303,7 @@
 			{{/if}}
 			{{#if website}}
 			<div class="website">
-				<a href="{{website}}">Link</a>
+				<a href="{{website}}" target="_blank">Link</a>
 			</div>
 			{{/if}}
 			{{#if summary}}
