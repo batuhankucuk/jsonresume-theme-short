@@ -31,6 +31,16 @@ Handlebars.registerHelper('paragraphSplit', function(plaintext) {
     return new Handlebars.SafeString(output);
 });
 
+Handlebars.registerHelper('svg', function(name) {
+	const svg = fs.readFileSync(__dirname + "/assets/" + name +".svg", "utf-8");
+	return new Handlebars.SafeString(svg);
+});
+
+Handlebars.registerHelper('beautifyURL', function(url) {
+	const beautified = url.split("//").pop();
+	return new Handlebars.SafeString(beautified);
+});
+
 module.exports = {
 	render: render
 };
